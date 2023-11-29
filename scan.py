@@ -15,8 +15,8 @@ base_url = "https://api.bybit.com/v2"
 headers = {"Content-Type": "application/json", "api-key": ""}
 
 # List of undesired coins
-undesired_tickers = [
-    "C98USD", "LTCUSD", "ADAUSD", "BITUSD", "USDCUSDT",
+undesired_tickers = ["USTCUSDT","EOSUSD","1000000VINUUSDT",
+    "10000LADYSUSDT","PAXGUSDT","C98USD", "LTCUSD", "ADAUSD", "BITUSD", "USDCUSDT",
     "BUSDUSDT", "DOTUSD", "ETHUSDU23", "BTCUSDU23", "XRPUSD",
     "MANAUSD", "ETHUSD", "ETHUSDH23", "ETHUSDM23", "ETHUSDZ23",
     "ETHWUSDT", "BTCUSD", "BTCUSDH23", "BTCUSDM23", "BTCUSDZ22",
@@ -34,6 +34,7 @@ def get_current_price(ticker):
     else:
         data = response.json()
         for response_data in data['result']:
+            print(response_data['symbol'])
             if ticker == response_data['symbol']:
                 current_price = float(response_data['last_price'])
                 return current_price

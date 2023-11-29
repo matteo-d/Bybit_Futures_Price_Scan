@@ -18,6 +18,44 @@
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3A10000NFTUSDT.P"
         },
         {
+                "ticker": "10000SATSUSDT",
+                "levels": [
+                        ["0.001285", "3"],
+                        ["0.001334", "0"],
+                        ["0.001387", "3"],
+                        ["0.001545", "0"],
+                        ["0.001701", "3"],
+                        ["0.001771", "0"],
+                        ["0.001841", "3"],
+                        ["0.002050", "0"],
+                        ["0.002256", "3"],
+                        ["0.002347", "0"],
+                        ["0.002442", "3"]
+                ],
+                "close" : "0.020",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3A10000SATSUSDT.P"
+        },
+        {
+                "ticker": "10000STARLUSDT",
+                "levels": [
+                        ["0.02894", "3"],
+                        ["0.03650", "0"],
+                        ["0.04406", "3"],
+                        ["0.04990", "0"],
+                        ["0.05634", "3"],
+                        ["0.06747", "0"],
+                        ["0.07901", "3"],
+                        ["0.09352", "0"],
+                        ["0.10850", "3"],
+                        ["0.11809", "0"],
+                        ["0.12768", "3"],
+                        ["0.15010", "0"],
+                        ["0.17246", "3"]
+                ],
+                "close" : "0.030",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3A10000STARLUSDT.P"
+        },
+        {
                 "ticker": "1000BONKUSDT",
                 "levels": [
                         ["0.000268", "3"],
@@ -41,20 +79,23 @@
         {
                 "ticker": "1000BTTUSDT",
                 "levels": [
-                        ["0.000485", "3"],
-                        ["0.000507", "3"],
-                        ["0.000549", "0"],
-                        ["0.000558", "0"],
-                        ["0.000614", "3"],
-                        ["0.000688", "3"],
-                        ["0.000789", "3"],
-                        ["0.000877", "3"],
-                        ["0.001086", "2"],
-                        ["0.001363", "0"],
-                        ["0.001712", "2"],
-                        ["0.001804", "3"]
+                        ["0.00037", "3"],
+                        ["0.00043", "0"],
+                        ["0.00044", "0"],
+                        ["0.00048", "3"],
+                        ["0.00050", "3"],
+                        ["0.00054", "0"],
+                        ["0.00055", "0"],
+                        ["0.00061", "3"],
+                        ["0.00068", "3"],
+                        ["0.00078", "3"],
+                        ["0.00087", "3"],
+                        ["0.00108", "2"],
+                        ["0.00136", "0"],
+                        ["0.00171", "2"],
+                        ["0.00180", "3"]
                 ],
-                "close" : "0.021",
+                "close" : "0.030",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3A1000BTTUSDT.P"
         },
         {
@@ -93,7 +134,6 @@
                 "close" : "0.021",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3A1000LUNCUSDT.P"
         },
-        
         {
                 "ticker": "1000PEPEUSDT",
                 "levels": [
@@ -116,6 +156,19 @@
                 "close" : "0.050",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3A1000PEPEUSDT.P"
         },
+        {
+                "ticker": "1000RATSUSDT",
+                "levels": [
+                        ["0.06321", "3"],
+                        ["0.07060", "1"],
+                        ["0.07597", "0"],
+                        ["0.07850", "1"],
+                        ["0.08886", "3"]
+                ],
+                "close" : "0.030",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3A1000RATSUSDT.P"
+        },
+    
         {
                 "ticker": "1000XECUSDT",
                 "levels": [
@@ -212,6 +265,72 @@
                 ],
                 "close" : "0.018",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3AADAUSDTPERP"
+        },
+        {
+                "ticker": "AERGOUSDT",
+                "levels": [
+                        ["0.01895", "3"],
+                        ["0.03513", "0"],
+                        ["0.04960", "3"],
+                        ["0.08200", "0"],
+                        ["0.11312", "3"],
+                        ["0.15082", "0"],
+                        ["0.18979", "3"],
+                        ["0.23922", "0"],
+                        ["0.28676", "3"],
+                        ["0.30864", "0"],
+                        ["0.32871", "3"],
+                        ["0.36975", "0"],
+                        ["0.40963", "3"],
+                        ["0.45993", "0"],
+                        ["0.51188", "3"]
+                ],
+                "close" : "0.035",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=MEXC%3AAERGOUSDT"
+        },
+        {
+                "ticker": "AGIUSDT",
+                "levels": [
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.2", ""],
+                        ["0.2", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.4", ""],
+                        ["0.4", ""],
+                        ["0.5", ""]
+                ],
+                "close" : "0.035",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3AAGIUSDT"
+        },
+        {
+                "ticker": "AGIXUSDT",
+                "levels": [
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.2", ""],
+                        ["0.2", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.4", ""],
+                        ["0.4", ""],
+                        ["0.5", ""]
+                ],
+                "close" : "0.030",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3AAGIXUSDT.P"
         },
         {
                 "ticker": "AGLDUSDT",
@@ -361,6 +480,28 @@
                 "close" : "0.025",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3AALPHAUSDTPERP"
         
+        },
+        {
+                "ticker": "AMBUSDT",
+                "levels": [
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.2", ""],
+                        ["0.2", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.4", ""],
+                        ["0.4", ""],
+                        ["0.5", ""]
+                ],
+                "close" : "0.025",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3AAMBUSDT"
         },
         {
                 "ticker": "ANKRUSDT",
@@ -773,6 +914,28 @@
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3AAXSUSDTPERP"
         },
         {
+                "ticker": "BADGERUSDT",
+                "levels": [
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.2", ""],
+                        ["0.2", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.4", ""],
+                        ["0.4", ""],
+                        ["0.5", ""]
+                ],
+                "close" : "0.050",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3ABADGERUSDT"
+        },
+        {
                 "ticker": "BAKEUSDT",
                 "levels": [
                         ["0.0816", "3"],
@@ -896,6 +1059,28 @@
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3ABCHUSDTPERP"
         },
         {
+                "ticker": "BEAMUSDT",
+                "levels": [
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.2", ""],
+                        ["0.2", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.4", ""],
+                        ["0.4", ""],
+                        ["0.5", ""]
+                ],
+                "close" : "0.060",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3ABEAMUSDT"
+        },
+        {
                 "ticker": "BELUSDT",
                 "levels": [
                         ["0.2838", "3"],
@@ -942,6 +1127,28 @@
                 ],
                 "close" : "0.025",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3ABICOUSDT"
+        },
+        {
+                "ticker": "BIGTIMEUSDT",
+                "levels": [
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.2", ""],
+                        ["0.2", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.4", ""],
+                        ["0.4", ""],
+                        ["0.5", ""]
+                ],
+                "close" : "0.060",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3ABIGTIMEUSDT.P"
         },
         {
                 "ticker": "BLURUSDT",
@@ -1059,6 +1266,28 @@
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3ABOBAUSDT.P"
         },
         {
+                "ticker": "BONDUSDT",
+                "levels": [
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.2", ""],
+                        ["0.2", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.4", ""],
+                        ["0.4", ""],
+                        ["0.5", ""]
+                ],
+                "close" : "0.030",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3ABONDUSDT.P"
+        },
+        {
                 "ticker": "BSVUSDT",
                 "levels": [
                         ["15.65", "3"],
@@ -1161,6 +1390,28 @@
                 ],
                 "close" : "0.025",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3AC98USDTPERP"
+        },
+        {
+                "ticker": "CAKEUSDT",
+                "levels": [
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.2", ""],
+                        ["0.2", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.4", ""],
+                        ["0.4", ""],
+                        ["0.5", ""]
+                ],
+                "close" : "0.030",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3ACAKEUSDT.P"
         },
         {
                 "ticker": "CEEKUSDT",
@@ -1322,6 +1573,28 @@
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3ACKBUSDT.P"
         },
         {
+                "ticker": "COMBOUSDT",
+                "levels": [
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.2", ""],
+                        ["0.2", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.4", ""],
+                        ["0.4", ""],
+                        ["0.5", ""]
+                ],
+                "close" : "0.036",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3ACOMBOUSDT"
+        },
+        {
                 "ticker": "COMPUSDT",
                 "levels": [
                         ["27.42", "3"],
@@ -1339,7 +1612,28 @@
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3ACOMPUSDTPERP"
         
         },
-        
+        {
+                "ticker": "COREUSDT",
+                "levels": [
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.2", ""],
+                        ["0.2", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.4", ""],
+                        ["0.4", ""],
+                        ["0.5", ""]
+                ],
+                "close" : "0.036",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3ACOREUSDT.P"
+        },
         {
                 "ticker": "COTIUSDT",
                 "levels": [
@@ -1510,6 +1804,28 @@
                 "close" : "0.027",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3ACVXUSDT.P"
         
+        },
+        {
+                "ticker": "CYBERUSDT",
+                "levels": [
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.2", ""],
+                        ["0.2", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.4", ""],
+                        ["0.4", ""],
+                        ["0.5", ""]
+                ],
+                "close" : "0.028",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3ACYBERUSDT"
         },
         {
                 "ticker": "DARUSDT",
@@ -1831,27 +2147,24 @@
         {
                 "ticker": "EOSUSDT",
                 "levels": [
-                        ["0.574", "3"],
-                        ["0.697", "0"],
-                        ["0.814", "3"],
-                        ["0.866", "0"],
-                        ["0.917", "2"],
-                        ["1.060", "1"],
-                        ["1.220", "1"],
-                        ["1.286", "2"],
-                        ["1.419", "1"],
-                        ["1.629", "0"],
-                        ["1.964", "2"],
-                        ["2.138", "0"],
-                        ["2.321", "2"],
-                        ["2.463", "0"],
-                        ["2.608", "3"],
-                        ["3.280", "0"],
-                        ["3.958", "3"],
-                        ["4.631", "3"]
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.2", ""],
+                        ["0.2", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.4", ""],
+                        ["0.4", ""],
+                        ["0.5", ""]
                 ],
-                "close" : "0.030",
-                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3AEOSUSDTPERP"
+                "close" : "0.040",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3AEOSUSDT"
         },
         {
                 "ticker": "ETCUSDT",
@@ -1909,6 +2222,28 @@
                 ],
                 "close" : "0.020",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BITSTAMP%3AETHUSD"
+        },
+        {
+                "ticker": "FETUSDT",
+                "levels": [
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.2", ""],
+                        ["0.2", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.4", ""],
+                        ["0.4", ""],
+                        ["0.5", ""]
+                ],
+                "close" : "0.034",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3AFETUSDT"
         },
         {
                 "ticker": "FILUSDT",
@@ -2017,6 +2352,28 @@
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3AFLOWUSDTPERP"
         },
         {
+                "ticker": "FLRUSDT",
+                "levels": [
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.2", ""],
+                        ["0.2", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.4", ""],
+                        ["0.4", ""],
+                        ["0.5", ""]
+                ],
+                "close" : "0.025",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3AFLRUSDT"
+        },
+        {
                 "ticker": "FORTHUSDT",
                 "levels": [
                         ["0.1652", "3"],
@@ -2038,6 +2395,28 @@
                 ],
                 "close" : "0.033",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3AFTMUSDTPERP"
+        },
+        {
+                "ticker": "FRONTUSDT",
+                "levels": [
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.2", ""],
+                        ["0.2", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.4", ""],
+                        ["0.4", ""],
+                        ["0.5", ""]
+                ],
+                "close" : "0.020",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3AFRONTUSDT.P"
         },
         {
                 "ticker": "FTMUSDT",
@@ -2125,6 +2504,50 @@
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3AGALUSDTPERP"
         },
         {
+                "ticker": "GASUSDT",
+                "levels": [
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.2", ""],
+                        ["0.2", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.4", ""],
+                        ["0.4", ""],
+                        ["0.5", ""]
+                ],
+                "close" : "0.028",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3AGASUSDT"
+        },
+        {
+                "ticker": "GFTUSDT",
+                "levels": [
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.2", ""],
+                        ["0.2", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.4", ""],
+                        ["0.4", ""],
+                        ["0.5", ""]
+                ],
+                "close" : "0.055",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3AGFTUSDT.P"
+        },
+        {
                 "ticker": "GLMRUSDT",
                 "levels": [
                         ["0.209", "3"],
@@ -2210,6 +2633,50 @@
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3AGMXUSDT.P"
         },
         {
+                "ticker": "GODSUSDT",
+                "levels": [
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.2", ""],
+                        ["0.2", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.4", ""],
+                        ["0.4", ""],
+                        ["0.5", ""]
+                ],
+                "close" : "0.055",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3AGODSUSDT"
+        },
+        {
+                "ticker": "GPTUSDT",
+                "levels": [
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.2", ""],
+                        ["0.2", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.4", ""],
+                        ["0.4", ""],
+                        ["0.5", ""]
+                ],
+                "close" : "0.033",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3AGPTUSDT"
+        },
+        {
                 "ticker": "GRTUSDT",
                 "levels": [
                         ["0.05163", "3"],
@@ -2281,6 +2748,50 @@
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3AHBARUSDTPERP"
         },
         {
+                "ticker": "HFTUSDT",
+                "levels": [
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.2", ""],
+                        ["0.2", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.4", ""],
+                        ["0.4", ""],
+                        ["0.5", ""]
+                ],
+                "close" : "0.040",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3AHFTUSDT"
+        },
+        {
+                "ticker": "HIFIUSDT",
+                "levels": [
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.2", ""],
+                        ["0.2", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.4", ""],
+                        ["0.4", ""],
+                        ["0.5", ""]
+                ],
+                "close" : "0.033",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3AHIFIUSDT"
+        },
+        {
                 "ticker": "HIGHUSDT",
                 "levels": [
                         ["0.9995", "3"],
@@ -2297,6 +2808,28 @@
                 ],
                 "close" : "0.025",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3AHIGHUSDT.P"
+        },
+        {
+                "ticker": "HNTUSDT",
+                "levels": [
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.2", ""],
+                        ["0.2", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.4", ""],
+                        ["0.4", ""],
+                        ["0.5", ""]
+                ],
+                "close" : "0.033",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3AHNTUSDT.P"
         },
         {
                 "ticker": "HOOKUSDT",
@@ -2401,7 +2934,30 @@
                 ],
                 "close" : "0.030",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=MEXC%3AIDEXUSDT"
-        },{
+        },
+        {
+                "ticker": "IDUSDT",
+                "levels": [
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.2", ""],
+                        ["0.2", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.4", ""],
+                        ["0.4", ""],
+                        ["0.5", ""]
+                ],
+                "close" : "0.033",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3AIDUSDT.P"
+        },
+        {
                 "ticker": "ILVUSDT",
                 "levels": [
                         ["37.9", "3"],
@@ -2661,7 +3217,30 @@
                 "close" : "0.020",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3AKDAUSDT.P"
         
-        },{
+        },
+        {
+                "ticker": "KEYUSDT",
+                "levels": [
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.2", ""],
+                        ["0.2", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.4", ""],
+                        ["0.4", ""],
+                        ["0.5", ""]
+                ],
+                "close" : "0.033",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3AKEYUSDT"
+        },
+        {
                 "ticker": "KLAYUSDT",
                 "levels": [
                         ["0.1200", "3"],
@@ -2752,7 +3331,30 @@
                 "close" : "0.028",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3ALDOUSDT.P"
         
-        },{
+        },
+        {
+                "ticker": "LEVERUSDT",
+                "levels": [
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.2", ""],
+                        ["0.2", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.4", ""],
+                        ["0.4", ""],
+                        ["0.5", ""]
+                ],
+                "close" : "0.033",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3ALEVERUSDT"
+        },
+        {
                 "ticker": "LINAUSDT",
                 "levels": [
                         ["0.00467", "2"],
@@ -2848,7 +3450,30 @@
                 "close" : "0.070",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3ALOOKSUSDT.P"
         
-        },{
+        },
+        {
+                "ticker": "LOOMUSDT",
+                "levels": [
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.2", ""],
+                        ["0.2", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.4", ""],
+                        ["0.4", ""],
+                        ["0.5", ""]
+                ],
+                "close" : "0.033",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3ALOOMUSDT.P"
+        },
+        {
                 "ticker": "LPTUSDT",
                 "levels": [
                         ["3.156", "3"],
@@ -2875,6 +3500,28 @@
                 "close" : "0.035",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3ALPTUSDT.P"
         
+        },
+        {
+                "ticker": "LQTYUSDT",
+                "levels": [
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.0", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.1", ""],
+                        ["0.2", ""],
+                        ["0.2", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.3", ""],
+                        ["0.4", ""],
+                        ["0.4", ""],
+                        ["0.5", ""]
+                ],
+                "close" : "0.033",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3ALQTYUSDT"
         },{
                 "ticker": "LRCUSDT",
                 "levels": [
@@ -3065,6 +3712,34 @@
         
         },
         {
+                "ticker": "MBLUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.030",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3AMBLUSDT"
+        
+        },
+        {
                 "ticker": "MDTUSDT",
                 "levels": [
                         ["0.00788", "3"],
@@ -3081,6 +3756,34 @@
                 ],
                 "close" : "0.040",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3AMDTUSDT"
+        
+        },
+        {
+                "ticker": "MEMEUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.030",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3AMEMEUSDT.P"
         
         },
         {
@@ -3132,7 +3835,64 @@
                 "close" : "0.030",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3AMKRUSDTPERP"
         
-        },{
+        },
+        {
+                "ticker": "MNTUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.020",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3AMNTUSDT.P"
+        
+        },
+        {
+                "ticker": "MOVRUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.030",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3AMOVRUSDT"
+        
+        },
+        {
                 "ticker": "MTLUSDT",
                 "levels": [
                         ["0.5634", "3"],
@@ -3154,7 +3914,36 @@
                 "close" : "0.025",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3AMTLUSDTPERP"
         
-        },{
+        },
+        {
+                "ticker": "MULTIUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.015",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3AMULTIUSDT.P"
+        
+        },
+        {
                 "ticker": "NEARUSDT",
                 "levels": [
                         ["1.241", "3"],
@@ -3205,6 +3994,90 @@
                 "close" : "0.022",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3ANEOUSDTPERP"
         
+        },
+        {
+                "ticker": "NKNUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.030",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3ANKNUSDT"
+        
+        },
+        {
+                "ticker": "NMRUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.030",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3ANMRUSDT"
+        
+        },
+        {
+                "ticker": "NTRNUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.030",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3ANTRNUSDT.P"
+        
         },{
                 "ticker": "OCEANUSDT",
                 "levels": [
@@ -3254,7 +4127,36 @@
                 "close" : "0.018",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3AOGNUSDTPERP"
         
-        },{
+        },
+        {
+                "ticker": "OGUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.030",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3AOGUSDT"
+        
+        },
+        {
                 "ticker": "OMGUSDT",
                 "levels": [
                         ["0.521", "3"],
@@ -3297,6 +4199,34 @@
                 ],
                 "close" : "0.022",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3AONEUSDTPERP"
+        
+        },
+        {
+                "ticker": "ONGUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.020",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3AONGUSDT.P"
         
         },{
                 "ticker": "ONTUSDT",
@@ -3345,6 +4275,62 @@
                 ],
                 "close" : "0.018",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3AOPUSDTPERP"
+        
+        },
+        {
+                "ticker": "ORBSUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.020",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3AORBSUSDT.P"
+        
+        },
+        {
+                "ticker": "ORDIUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.025",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3AORDIUSDT"
         
         },
         {
@@ -3409,6 +4395,34 @@
         
         },
         {
+                "ticker": "PERPUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.025",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3APERPUSDT"
+        
+        },
+        {
                 "ticker": "PHBUSDT",
                 "levels": [
                         ["0.3522", "3"],
@@ -3425,6 +4439,142 @@
                 ],
                 "close" : "0.028",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3APHBUSDT.P"
+        },
+        {
+                "ticker": "POLYXUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.025",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3APOLYXUSDT.P"
+        
+        },     
+              {
+                "ticker": "POWRUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.025",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3APOWRUSDT.P"
+        
+        },       {
+                "ticker": "PROMUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.021",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BITGET%3APROMUSDT"
+        
+        },       {
+                "ticker": "PYTHUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.018",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3APYTHUSDT.P"
+        },
+        {
+                "ticker": "QNTUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.033",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3AQNTUSDT"
         },
         {
                 "ticker": "QTUMUSDT",
@@ -3449,7 +4599,90 @@
                 "close" : "0.012",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3AQTUMUSDTPERP"
         
-        },{
+        },
+        {
+                "ticker": "RADUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.033",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3ARADUSDT"
+        },
+        {
+                "ticker": "RAREUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.025",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3ARAREUSDT"
+        
+        },
+        {
+                "ticker": "RDNTUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.020",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3ARDNTUSDT"
+        },
+        {
                 "ticker": "REEFUSDT",
                 "levels": [
                         ["0.001284", "3"],
@@ -3518,6 +4751,60 @@
         
         },
         {
+                "ticker": "RIFUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.015",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3ARIFUSDT.PT"
+        },
+        {
+                "ticker": "RLCUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.033",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3ARLCUSDT"
+        },
+        {
                 "ticker": "RNDRUSDT",
                 "levels": [
                         ["0.274", "3"],
@@ -3557,54 +4844,63 @@
                 "close" : "0.025",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3AROSEUSDTPERP"
         
-        },{
-                "ticker": "RPLUSDTUSDT",
+        },
+        {
+                "ticker": "RPLUSDT",
                 "levels": [
-                        ["20.074", "3"],
-                        ["22.230", "3"],
-                        ["26.265", "0"],
-                        ["27.242", "0"],
-                        ["32.446", "2"],
-                        ["38.484", "2"],
-                        ["40.753", "3"],
-                        ["46.384", "0"],
-                        ["47.908", "0"],
-                        ["51.983", "3"],
-                        ["57.362", "2"],
-                        ["65.000", "3"],
-                        ["73.551", "3"]
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
                 ],
-                "close" : "0.030",
-                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BITGET%3ARPLUSDT"
-        
-        },{
-                "ticker": "RSRUSDT",
-                "levels": [
-                        ["0.001651", "3"],
-                        ["0.002187", "0"],
-                        ["0.002784", "3"],
-                        ["0.003151", "3"],
-                        ["0.003441", "0"],
-                        ["0.003806", "1"],
-                        ["0.004057", "3"],
-                        ["0.004362", "0"],
-                        ["0.004661", "3"],
-                        ["0.005348", "0"],
-                        ["0.006000", "1"],
-                        ["0.007101", "2"],
-                        ["0.008050", "1"],
-                        ["0.008806", "2"],
-                        ["0.010858", "0"],
-                        ["0.012929", "3"],
-                        ["0.015439", "0"],
-                        ["0.017915", "2"],
-                        ["0.020275", "0"],
-                        ["0.022641", "3"]
-                ],
-                "close" : "0.019",
-                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3ARSRUSDTPERP"
-        
-        },{
+                "close" : "0.033",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3ARPLUSDT"
+        },
+                {
+        "ticker": "RSRUSDT",
+        "levels": [
+                ["0.001651", "3"],
+                ["0.002187", "0"],
+                ["0.002784", "3"],
+                ["0.003151", "3"],
+                ["0.003441", "0"],
+                ["0.003806", "1"],
+                ["0.004057", "3"],
+                ["0.004362", "0"],
+                ["0.004661", "3"],
+                ["0.005348", "0"],
+                ["0.006000", "1"],
+                ["0.007101", "2"],
+                ["0.008050", "1"],
+                ["0.008806", "2"],
+                ["0.010858", "0"],
+                ["0.012929", "3"],
+                ["0.015439", "0"],
+                ["0.017915", "2"],
+                ["0.020275", "0"],
+                ["0.022641", "3"]
+        ],
+        "close" : "0.019",
+        "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3ARSRUSDTPERP"
+
+},
+        {
                 "ticker": "RSS3USDT",
                 "levels": [
                         ["0.08445", "3"],
@@ -3630,7 +4926,8 @@
                 "close" : "0.012",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3ARSS3USDT.P"
         
-        },{
+        },
+        {
                 "ticker": "RUNEUSDT",
                 "levels": [
                         ["0.504", "3"],
@@ -3727,7 +5024,8 @@
                 "close" : "0.025",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3ASCRTUSDT"
         
-        },{
+        },
+      {
                 "ticker": "SCUSDT",
                 "levels": [
                         ["0.003192", "3"],
@@ -3746,7 +5044,35 @@
                 "close" : "0.030",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3ASCUSDTPERP"
         
-        },{
+        },
+        {
+                "ticker": "SEIUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.025",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3ASEIUSDT"
+        },
+        {
                 "ticker": "SFPUSDT",
                 "levels": [
                         ["0.2644", "3"],
@@ -3852,6 +5178,33 @@
                 "close" : "0.033",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3ASLPUSDT"
         
+        },
+        {
+                "ticker": "SNTUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.025",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3ASNTUSDT"
         },{
                 "ticker": "SNXUSDT",
                 "levels": [
@@ -3907,7 +5260,62 @@
                 "close" : "0.025",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3ASPELLUSDT"
         
-        },{
+        },
+        {
+                "ticker": "SSVUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.035",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=GATEIO%3ASSVUSDT"
+        },
+        {
+                "ticker": "STEEMUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.020",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3ASTEEMUSDT.P"
+        },
+        {
                 "ticker": "STGUSDT",
                 "levels": [
                         ["0.3001", "3"],
@@ -3972,6 +5380,60 @@
         
         },
         {
+                "ticker": "STPTUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.030",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3ASTPTUSDT.P"
+        },
+        {
+                "ticker": "STRAXUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.025",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3ASTRAXUSDT.P"
+        },
+        {
                 "ticker": "STXUSDT",
                 "levels": [
                         ["0.094", "3"],
@@ -4033,6 +5495,29 @@
                 ],
                 "close" : "0.025",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3ASUNUSDT"
+        
+        },
+        {
+                "ticker": "SUPERUSDT",
+                "levels": [
+                        ["0.0908", "3"],
+                        ["0.2075", "3"],
+                        ["0.4455", "3"],
+                        ["0.6445", "3"],
+                        ["0.9242", "3"],
+                        ["1.2488", "0"],
+                        ["1.5861", "3"],
+                        ["2.0069", "0"],
+                        ["2.4086", "3"],
+                        ["2.7157", "0"],
+                        ["3.0260", "3"],
+                        ["3.4553", "0"],
+                        ["3.8880", "3"],
+                        ["4.3366", "0"],
+                        ["4.7700", "3"] 
+                ],
+                "close" : "0.050",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3ASUPERUSDT"
         
         },{
                 "ticker": "SUSHIUSDT",
@@ -4114,6 +5599,33 @@
                 "close" : "0.025",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3ATHETAUSDTPERP"
         
+        },
+        {
+                "ticker": "TIAUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.025",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3ATIAUSDT"
         },{
                 "ticker": "TLMUSDT",
                 "levels": [
@@ -4132,6 +5644,87 @@
                 "close" : "0.025",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3ATLMUSDT"
         
+        },
+        {
+                "ticker": "TOKENUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.025",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3ATOKENUSDT.P"
+        },
+        {
+                "ticker": "TOMIUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.020",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3ATOMIUSDT.P"
+        },
+        {
+                "ticker": "TONUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.020",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3ATONUSDT"
         },{
                 "ticker": "TRBUSDT",
                 "levels": [
@@ -4160,7 +5753,35 @@
                 "close" : "0.030",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3ATRBUSDTPERP"
         
-        },{
+        },
+        {
+                "ticker": "TRUUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.030",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3ATRUUSDT"
+        },
+        {
                 "ticker": "TRXUSDT",
                 "levels": [
                         ["0.01185", "3"],
@@ -4209,6 +5830,33 @@
                 "close" : "0.040",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3ATWTUSDT"
         
+        },
+        {
+                "ticker": "UMAUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.040",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3AUMAUSDT"
         },{
                 "ticker": "UNFIUSDT",
                 "levels": [
@@ -4307,6 +5955,33 @@
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3AVGXUSDT"
         },
         {
+                "ticker": "VRAUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.020",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3AVRAUSDT.P"
+        },
+        {
                 "ticker": "WAVESUSDT",
                 "levels": [
                         ["1.2456", "2"],
@@ -4323,6 +5998,33 @@
                 ],
                 "close" : "0.050",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3AWAVESUSDTPERP"
+        },
+        {
+                "ticker": "WAXPUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.020",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3AWAXPUSDT.P"
         },
         {
                 "ticker": "WLDUSDT",
@@ -4359,7 +6061,35 @@
                 "close" : "0.025",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3AWOOUSDTPERP"
         
-        },{
+        },
+        {
+                "ticker": "WSMUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.020",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3AWSMUSDT.P"
+        },
+        {
                 "ticker": "XCNUSDT",
                 "levels": [
                         ["0.00218", "3"],
@@ -4467,7 +6197,8 @@
                 "close" : "0.023",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3AXNOUSDT.P"
         
-        },{
+        },
+      {
                 "ticker": "XRPUSDT",
                 "levels": [
                         ["0.1784", "3"],
@@ -4493,7 +6224,8 @@
                 "close" : "0.030",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3AXRPUSDTPERP"
         
-        },{
+        },
+        {
                 "ticker": "XTZUSDT",
                 "levels": [
                         ["0.701", "3"],
@@ -4527,6 +6259,60 @@
                 "close" : "0.03",
                 "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BYBIT%3AXVGUSDT.P"
         
+        },
+        {
+                "ticker": "XVSUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.030",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=BINANCE%3AXVSUSDT"
+        },
+        {
+                "ticker": "YFIIUSDT",
+                "levels": [
+                        ["3.7851", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"],
+                        ["1.1", "0"],
+                        ["1.1", "3"] 
+                ],
+                "close" : "0.040",
+                "web" : "https://fr.tradingview.com/chart/gqoL7Ar1/?symbol=OKX%3AYFIIUSDT"
         },
         {
                 "ticker": "YFIUSDT",
