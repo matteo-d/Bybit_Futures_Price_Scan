@@ -15,7 +15,7 @@ base_url = "https://api.bybit.com/v2"
 headers = {"Content-Type": "application/json", "api-key": ""}
 
 # List of undesired coins
-undesired_tickers = ["USTCUSDT","EOSUSD","1000000VINUUSDT",
+undesired_tickers = ["DATAUSDT","ACEUSDT","MYRIAUSDT","ETHUSDM24","BTCUSDM24","FUNUSDT","QIUSDT","XRDUSDT","JTOUSDT","IGUUSDT","AXLUSDT","USTCUSDT","EOSUSD","1000000VINUUSDT",
     "10000LADYSUSDT","PAXGUSDT","C98USD", "LTCUSD", "ADAUSD", "BITUSD", "USDCUSDT",
     "BUSDUSDT", "DOTUSD", "ETHUSDU23", "BTCUSDU23", "XRPUSD",
     "MANAUSD", "ETHUSD", "ETHUSDH23", "ETHUSDM23", "ETHUSDZ23",
@@ -24,8 +24,6 @@ undesired_tickers = ["USTCUSDT","EOSUSD","1000000VINUUSDT",
 ]
 
 # Get the current price for x ticker
-
-
 def get_current_price(ticker):
     # Connect to bybit
     response = requests.get(base_url + "/public/tickers", headers=headers)
@@ -38,7 +36,6 @@ def get_current_price(ticker):
             if ticker == response_data['symbol']:
                 current_price = float(response_data['last_price'])
                 return current_price
-
 
 def getListOfTickersCloseToLevel():
     # Connect to bybit
@@ -71,7 +68,6 @@ def getListOfTickersCloseToLevel():
                                 result_array.append(ticker['symbol'])
         return result_array
 
-
 def filterResultArray(movers):
     print("Movers", movers)
     for x in movers:
@@ -85,7 +81,6 @@ def filterResultArray(movers):
                 webbrowser.open(y["web"], new=0)
                 time.sleep(9)
                 already_visited_chart.append(y["ticker"])
-
 
 # Variables to know if a chart already has been visited inside the loop
 counter = 0
