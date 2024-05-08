@@ -1,1 +1,0 @@
-Script that scans most of coins listed on bybit futures market. In data.json the 3,2,1,0 means the price level is an support/resistance visible using heikein ashi candles on weekly, daily and 2 hours timeframe, 0 = midrange. If a coin gets close or get away of an marked price level, open the chart in trading view. Useful for mean reversion trades.
