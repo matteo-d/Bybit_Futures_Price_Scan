@@ -16,7 +16,7 @@ headers = {"Content-Type": "application/json", "api-key": ""}
 
 # List of undesired coins
 undesired_tickers = [
-    "REZUSDT","SAFEUSDT","SCAUSDT","LAIUSDT", "BRETTUSDT", "SUNUSDT", "1000000VINUUSDT", "IGUUSDT",
+   "XCHUSDT","SPECUSDT","MAPOUSDT","CANTOUSDT","MASAUSDT","DRIFTUSDT","VELOUSDT","NOTUSDT","LFTUSDT","FTNUSDT","1000000MOGUSDT","GNOUSDT","BBUSDT","COSUSDT","FIREUSDT","REZUSDT","SAFEUSDT","SCAUSDT","LAIUSDT", "BRETTUSDT", "SUNUSDT", "1000000VINUUSDT", "IGUUSDT",
     "PAXGUSDT","XCNUSDT",
 
     "C98USD", "USTCUSDT", "LTCUSD",
@@ -30,8 +30,6 @@ undesired_tickers = [
 ]
 
 # Get the current price for x ticker
-
-
 def get_current_price(ticker):
     # Connect to bybit
     response = requests.get(base_url + "/public/tickers", headers=headers)
@@ -89,7 +87,7 @@ def filterResultArray(movers):
                 print("CHART : ", y["web"])
                 print("")
                 webbrowser.open(y["web"], new=0)
-                time.sleep(9)
+                time.sleep(20)
                 already_visited_chart.append(y["ticker"])
 
 
@@ -103,11 +101,11 @@ already_visited_chart = []
 while True:
     # Get a price snapshot of all the assets listed on bybit futures
     first_run = getListOfTickersCloseToLevel()
-    time.sleep(200)
+    time.sleep(60)
     second_run = getListOfTickersCloseToLevel()
 
     # Reset Already visited charts after x loops
-    if counter == 3:
+    if counter == 25 :
         added = []
         deleted = []
         already_visited_chart = []
