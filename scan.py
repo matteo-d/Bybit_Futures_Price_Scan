@@ -4,78 +4,84 @@ import webbrowser
 import time
 import ccxt
 from datetime import datetime
+from pybit.unified_trading import HTTP
 
+session = HTTP(
+    testnet=False,
+    api_key="",
+    api_secret=""
+)
 # Load my data base that contains price levels
 with open("data.json") as f:
     levels_data = json.load(f)
 
-# Bybit
-bybit = ccxt.bybit()
-base_url = "https://api.bybit.com/v2"
-headers = {"Content-Type": "application/json", "api-key": ""}
-
 # List of undesired coins
 undesired_tickers = [
-   "XCHUSDT","SPECUSDT","MAPOUSDT","CANTOUSDT","MASAUSDT","DRIFTUSDT","VELOUSDT","NOTUSDT","LFTUSDT","FTNUSDT","1000000MOGUSDT","GNOUSDT","BBUSDT","COSUSDT","FIREUSDT","REZUSDT","SAFEUSDT","SCAUSDT","LAIUSDT", "BRETTUSDT", "SUNUSDT", "1000000VINUUSDT", "IGUUSDT",
-    "PAXGUSDT","XCNUSDT",
-
-    "C98USD", "USTCUSDT", "LTCUSD",
-    "ADAUSD", "BITUSD", "USDCUSDT", "BTCUSDM24",
-    "BUSDUSDT", "DOTUSD", "ETHUSDU23", "BTCUSDU23", "XRPUSD",
-    "MANAUSD", "ETHUSD", "ETHUSDH23", "ETHUSDM23", "ETHUSDZ23",
-    "ETHWUSDT", "BTCUSD", "BTCUSDH23", "BTCUSDM23", "BTCUSDZ22",
-    "ATOMUSD", "TUSDT", "USDCUSDT", "BTCUSDZ23", "BTCUSDH24",
-    "ETHUSDH24", "SOLUSD", "ETHUSDU24", "BTCUSDU24",
-    "ETHUSDM24", "BTCUSDM24", "EOSUSD"
+   "UXLINKUSDT","PRCLUSDT","MOCAUSDT","DOP1USDT","CLOUDUSDT","BANANAUSDT", "AEROUSDT", "1000IQ50USDT", "1000000PEIPEIUSDT", "MANEKIUSDT", "BLASTUSDT", "AKTUSDT", "ZCXUSDT", "LISTAUSDT", "ZROUSDT", "1000APUUSDT", "ZKJUSDT", "ATHUSDT", "AIOZUSDT", "IOUSDT", "GMEUSDT", "1000000BABYDOGEUSDT", "ZKUSDT", "TAIKOUSDT", "PONKEUSDT", "ETHBTCUSDT", "RAYDIUMUSDT", "DOGUSDT", "BENDOGUSDT", "PHAUSDT", "1000BEERUSDT", "OSMOUSDT", "MONUSDT", "NYANUSDT", "PENGUSDT", "XCHUSDT", "SPECUSDT", "MAPOUSDT", "CANTOUSDT", "MASAUSDT", "DRIFTUSDT", "VELOUSDT", "NOTUSDT", "LFTUSDT", "FTNUSDT", "1000000MOGUSDT", "GNOUSDT", "BBUSDT", "COSUSDT", "FIREUSDT", "REZUSDT", "SAFEUSDT", "SCAUSDT", "LAIUSDT", "BRETTUSDT", "SUNUSDT", "1000000VINUUSDT", "IGUUSDT",
+    "PAXGUSDT", "XCNUSDT", "USTCUSDT", "USDCUSDT", "BUSDUSDT", "ETHWUSDT", "TUSDT", "USDCUSDT"
 ]
 
 # Get the current price for x ticker
+
+
 def get_current_price(ticker):
-    # Connect to bybit
-    response = requests.get(base_url + "/public/tickers", headers=headers)
-    if response.status_code != 200:
-        print("failed with status code :", response.status_code)
-    else:
-        data = response.json()
-        for response_data in data['result']:
-            print(response_data['symbol'])
-            if ticker == response_data['symbol']:
-                current_price = float(response_data['last_price'])
-                return current_price
+    try:
+        response = session.get_tickers(category="linear")
+        if response['retCode'] != 0:
+            print("Failed with Message:", response['retMsg'])
+            return None     
+        for ticker_data in response['result']['list']:
+            if ticker == ticker_data['symbol']:
+                return float(ticker_data['lastPrice'])    
+        print("Ticker not found")
+        return None
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        return None
 
 
 def getListOfTickersCloseToLevel():
-    # Connect to bybit
-    response = requests.get(base_url + "/public/tickers", headers=headers)
-    if response.status_code != 200:
-        print("failed with status code :", response.status_code)
-    else:
-        data = response.json()
-        result_array = []
-        # Check if the coin tracked correspond to the coins levels in the database
-        c = 0
-        for ticker in data['result']:
+    try:
+        # Connect to Bybit and fetch tickers data
+        response = session.get_tickers(category="linear")
+
+        # Check for successful response
+        if response['retCode'] != 0:
+            print("Failed with Message:", response['retMsg'])
+            return []
+
+        result_list = []
+        current_level_index = 0
+
+        # Ensure all tickers correspond to the coins levels in the database
+        for ticker in response['result']['list']:
+            if ticker['symbol'] not in undesired_tickers and ticker['symbol'].endswith("USDT"):
+                if ticker['symbol'] != levels_data[current_level_index]['ticker']:
+                    print('ERROR AT', ticker['symbol'], 'vs', levels_data[current_level_index]['ticker'], current_level_index)
+                    return []
+                current_level_index += 1
+
+        # Check each ticker against the levels data
+        for ticker in response["result"]["list"]:
             if ticker['symbol'] not in undesired_tickers:
-                if ticker['symbol'] != levels_data[c]['ticker']:
-                    print('ERROR AT', ticker['symbol'],
-                          'vs', levels_data[c]['ticker'], c)
-                    exit()
-                    return
-                c += 1
+                for level in levels_data:
+                    if ticker['symbol'] == level['ticker']:
+                        current_price = float(ticker['lastPrice'])
+                        for level_info in level['levels']:
+                            price_of_interest = float(level_info[0])
+                            percentage_threshold = float(level['close'])
+                            lower_bound = price_of_interest * (1 - percentage_threshold)
+                            upper_bound = price_of_interest * (1 + percentage_threshold)
+                            if lower_bound <= current_price <= upper_bound:
+                                result_list.append(ticker['symbol'])
+                                break
+        return result_list
 
-        for ticker in data["result"]:
-            if ticker['symbol'] not in undesired_tickers:
-                for x in levels_data:
-                    if ticker['symbol'] == x['ticker']:
-                        for inner_list in x['levels']:
-                            price_of_interest = float(inner_list[0])
-                            current_price = float(ticker['last_price'])
-                            percentage = float(x['close'])
-                            if price_of_interest - price_of_interest * percentage <= current_price <= price_of_interest + price_of_interest * percentage:
-                                result_array.append(ticker['symbol'])
-        return result_array
-
-
+    except Exception as e:
+        # Handle any unexpected errors
+        print(f"An error occurred: {e}")
+        return []
+    
 def filterResultArray(movers):
     print("Movers", movers)
     for x in movers:
@@ -87,7 +93,6 @@ def filterResultArray(movers):
                 print("CHART : ", y["web"])
                 print("")
                 webbrowser.open(y["web"], new=0)
-                time.sleep(20)
                 already_visited_chart.append(y["ticker"])
 
 
@@ -105,7 +110,7 @@ while True:
     second_run = getListOfTickersCloseToLevel()
 
     # Reset Already visited charts after x loops
-    if counter == 25 :
+    if counter == 25:
         added = []
         deleted = []
         already_visited_chart = []
